@@ -35,23 +35,10 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        Tinkering with Linux systems and building things is what I do best.
-        You'll find me writing scripts to automate the boring stuff, tweaking my
-        window manager setup, or customizing Neovim. I enjoy diving into new
-        technologies and making my development workflow smoother These days, I'm
-        exploring AI agents, crafting web applications, and occasionally
-        dabbling in OCaml and Zig when I want to think differently about
-        programming.
+        Tinkering with Linux, automating tasks, and refining my workflow are my
+        passions. Lately, I’m exploring AI agents, crafting web apps, and
+        experimenting with OCaml and Zig for fresh programming perspectives.
       </p>
-      {
-        // only display if at least one social link is enabled
-        socialCount > 0 && (
-          <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
-            <Socials />
-          </div>
-        )
-      }
     </section>
 
     <Hr />
