@@ -4,7 +4,7 @@ export const SITE: Site = {
     website: "https://anandmohanan.site/",
     author: "Anand Mohanan",
     profile: "https://anandmohanan.site/",
-    desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+    desc: "Crafting solutions with precision and elegance.",
     title: "Anand Mohanan",
     ogImage: "og.png",
     lightAndDarkMode: true,
