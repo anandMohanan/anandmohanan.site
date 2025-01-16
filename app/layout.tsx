@@ -26,13 +26,31 @@ export const metadata: Metadata = {
         siteName: 'Anand Mohanan Portfolio',
         images: [
             {
-                url: 'https://www.anandmohanan.site/api/og',
+                url: '/opengraph-image.png',
                 width: 1200,
                 height: 630,
             },
         ],
         locale: 'en-US',
         type: 'website',
+    },
+      twitter: {
+        card: 'summary_large_image',
+        title: 'Anand Mohanan - Portfolio',
+        description: 'Web dev, Tinkering with Linux, automating tasks, and refining my workflow',
+        images: ['https://anandmohanan.site/opengraph-image.png'],
+        creator: '@anandmohanan',
+    },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        },
     },
 }
 

@@ -1,3 +1,4 @@
+import { ProjectSection } from '@/components/project-section'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -57,10 +58,7 @@ export default function About() {
                 </ul>
             </section>
 
-            <section>
-                <h2 className="text-2xl font-bold mb-4">Projects</h2>
-                {/* Project details would be listed here */}
-            </section>
+                <ProjectSection />
 
             <section>
                 <h2 className="text-2xl font-bold mb-4">Areas of interest</h2>
