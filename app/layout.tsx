@@ -34,11 +34,11 @@ export const metadata: Metadata = {
         locale: 'en-US',
         type: 'website',
     },
-      twitter: {
+    twitter: {
         card: 'summary_large_image',
         title: 'Anand Mohanan - Portfolio',
         description: 'Web dev, Tinkering with Linux, automating tasks, and refining my workflow',
-        images: ['https://anandmohanan.site/opengraph-image.png'],
+        images: ['https://anandmohanan.site/opengraph-img.png'],
         creator: '@anandmohanan',
     },
     robots: {
