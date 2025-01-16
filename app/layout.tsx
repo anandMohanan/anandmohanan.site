@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         siteName: 'Anand Mohanan Portfolio',
         images: [
             {
-                url: '/opengraph-image.png',
+                url: '/opengraph-img.png',
                 width: 1200,
                 height: 630,
             },
